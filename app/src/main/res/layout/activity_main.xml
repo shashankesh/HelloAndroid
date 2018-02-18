@@ -13,17 +13,18 @@
         android:scaleType="centerCrop"
         android:src="@drawable/untitled"
         android:layout_marginTop="30dp"
-        android:layout_marginBottom="25dp"
+        android:layout_marginBottom="10dp"
         android:layout_weight="1"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Udacity"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="@string/udacity"
         android:paddingLeft="20dp"
         android:paddingTop="5dp"
+        android:textSize="@dimen/font_size"
         android:paddingRight="5dp"
+        android:textColor="@android:color/background_dark"
         />
 
     <TextView
@@ -34,8 +35,8 @@
         android:paddingLeft="20dp"
         android:paddingRight="5dp"
         android:paddingTop="5dp"
-        android:text="650-555-5555"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="@string/phoneno"
+        android:textSize="@dimen/font_size"
         android:textColorLink="@android:color/background_dark" />
 
     <TextView
@@ -46,9 +47,8 @@
         android:paddingLeft="20dp"
         android:paddingRight="5dp"
         android:paddingTop="5dp"
-        android:text="www.udacity.com"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-
+        android:text="@string/link"
+        android:textSize="@dimen/font_size"
         android:textColorLink="@color/colorPrimary" />
 
     <TextView
@@ -58,9 +58,9 @@
         android:fontFamily="sans-serif-light"
         android:paddingLeft="20dp"
         android:paddingRight="5dp"
+        android:textSize="@dimen/font_size"
         android:paddingTop="5dp"
-        android:text="2465 Latham St.Mountain View, CA 94043"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="@string/loca"
         android:textColorLink="@android:color/background_dark" />
 
 </LinearLayout>
