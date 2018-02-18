@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.helloandroid.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="323dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/untitled"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="25dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Udacity"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="phone"
+        android:fontFamily="sans-serif-light"
+        android:paddingLeft="20dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:text="650-555-5555"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColorLink="@android:color/background_dark" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:fontFamily="sans-serif-light"
+        android:paddingLeft="20dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:text="www.udacity.com"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+
+        android:textColorLink="@color/colorPrimary" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="map"
+        android:fontFamily="sans-serif-light"
+        android:paddingLeft="20dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:text="2465 Latham St.Mountain View, CA 94043"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColorLink="@android:color/background_dark" />
+
+</LinearLayout>
